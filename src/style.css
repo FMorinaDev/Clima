@@ -44,8 +44,7 @@ body {
   font-size: 2rem;
   font-weight: 700;
 }
-.formulario input[type="text"], 
-.formulario select {
+.formulario input[type="text"] {
   padding: 1rem;
   background-color: transparent;
   border: .3rem solid var(--blanco);
@@ -69,7 +68,9 @@ body {
   color: var(--blanco);
   opacity: 1; 
 }
-
+.contenedorUbicacion .resultado{
+  width: 100%;
+}
 .resultado {
   background-color: var(--blanco);
   padding: 1rem;
